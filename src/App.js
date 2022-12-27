@@ -1,10 +1,10 @@
 import React from "react";
-import { Toggle } from "./components";
+import { Timeout } from "./components";
 
 const App = () => {
   return (
     <>
-      <Toggle />
+      <Timeout />
     </>
   );
 };
