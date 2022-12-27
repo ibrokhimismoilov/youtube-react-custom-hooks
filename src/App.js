@@ -1,10 +1,10 @@
 import React from "react";
-import { Timeout } from "./components";
+import { Interval } from "./components";
 
 const App = () => {
   return (
     <>
-      <Timeout />
+      <Interval />
     </>
   );
 };
