@@ -13,6 +13,8 @@ export const useInterval = (options = initialValue) => {
 
   const [state, setState] = useState({ ...initialValue, ...options });
 
+  console.log("Render", state.value);
+
   useEffect(() => {
     const { value, isRunning, delay, differenceValue, minValue } = state;
 
@@ -36,7 +38,7 @@ export const useInterval = (options = initialValue) => {
 
     return () => {
       if (intervalRef.current) {
-        clearInterval(intervalRef.current);
+        clearTimeout(intervalRef.current);
       }
     };
   }, [state]);
