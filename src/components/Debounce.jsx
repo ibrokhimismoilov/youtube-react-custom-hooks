@@ -37,16 +37,16 @@ export const Debounce = () => {
 // Search
 // export const Debounce = () => {
 //     const [value, setValue] = useState("");
-//     // const [query, setQuery] = useState("");
-//     // const cb = () => setQuery(value)
+//     const [query, setQuery] = useState("");
+//     const cb = () => setQuery(value)
 
-//     // useDebounce(cb, 1000, value);
+//     useDebounce(cb, 1000, value);
 
 //     return (
 //         <>
 //             <kbd>Value: {value ? `https://ibrokhim.uz?search=${value}` : null}</kbd>
 //             <br />
-//             {/* <kbd>Query: {query ? `https://ibrokhim.uz?search=${query}` : null}</kbd> */}
+//             <kbd>Query: {query ? `https://ibrokhim.uz?search=${query}` : null}</kbd>
 //             <br />
 //             <hr />
 //             <br />
