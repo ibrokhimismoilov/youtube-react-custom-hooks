@@ -1,10 +1,10 @@
 import React from "react";
-import { Debounce } from "./components";
+import { UpdateEffect } from "./components";
 
 const App = () => {
   return (
     <>
-      <Debounce />
+      <UpdateEffect />
     </>
   );
 };
