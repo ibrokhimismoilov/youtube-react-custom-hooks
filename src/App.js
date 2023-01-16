@@ -1,10 +1,10 @@
 import React from "react";
-import { Interval } from "./components";
+import { Debounce } from "./components";
 
 const App = () => {
   return (
     <>
-      <Interval />
+      <Debounce />
     </>
   );
 };
