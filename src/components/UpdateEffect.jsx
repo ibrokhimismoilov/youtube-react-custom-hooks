@@ -4,7 +4,9 @@ import { useUpdateEffect } from '../hooks';
 export const UpdateEffect = () => {
     const [count, setCount] = useState(10);
 
-    useUpdateEffect(() => alert(count), [count])
+    const cb = () => alert(count);
+
+    useUpdateEffect(cb, [count])
 
     return (
         <div>
